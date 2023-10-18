@@ -3,16 +3,16 @@ import React, { useState } from 'react';
 function RandomPicture() {
   // Array of 10 image URLs
   const images = [
-    'URL_TO_IMAGE_1',
-    'URL_TO_IMAGE_2',
-    'URL_TO_IMAGE_3',
-    'URL_TO_IMAGE_4',
-    'URL_TO_IMAGE_5',
-    'URL_TO_IMAGE_6',
-    'URL_TO_IMAGE_7',
-    'URL_TO_IMAGE_8',
-    'URL_TO_IMAGE_9',
-    'URL_TO_IMAGE_10',
+    'https://apod.nasa.gov/apod/image/2310/DesertEclipse_Daviron_960.jpg',
+    'https://apod.nasa.gov/apod/image/2310/HiResSprites_Escurat_1080.jpg',
+    'https://apod.nasa.gov/apod/image/2310/Hourglass_HubblePathak_1080.jpg',
+    'https://apod.nasa.gov/apod/image/2310/WitchHead_Alharbi_1080.jpg',
+    'https://apod.nasa.gov/apod/image/2310/MoValleyEclipse1024.jpg',
+    'https://apod.nasa.gov/apod/image/2310/HubbleVarOrig_Carnegie_960.jpg',
+    'https://apod.nasa.gov/apod/image/2310/M31_HubbleSpitzerGendler_960.jpg',
+    'https://apod.nasa.gov/apod/image/2310/PlaneEclipse_Slifer_960.jpg',
+    'https://apod.nasa.gov/apod/image/2310/DistortedSunrise_Chasiotis_1080.jpg',
+    'https://apod.nasa.gov/apod/image/2310/OrionNircShort_Webb_960.jpg',
   ];
 
   // Generate a random index to select an image
